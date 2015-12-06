@@ -26,6 +26,6 @@ Um simples módulo Puppet para a instalação e configuração do NodeJs.
     
   Feito isso basta usar o módulo nos seu arquivo de provisionamento com a linha abaixo:
   
-    include mysql::server
+    include nodejs::install
     
   E pronto, seu NodeJs será instalado no proximo provisionamento.  \o/ \o/
